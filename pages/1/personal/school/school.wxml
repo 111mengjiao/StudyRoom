@@ -1,0 +1,14 @@
+<!--pages/card.wxml-->
+<view class="wrapped">
+<view class="top">
+      <view class="header">所在学校</view>
+</view>
+<view class="note-wrap">
+      <view class="main">
+            <input class="input" name="school" placeholder="请输入所在学校" bindinput="schoolInput" value="{{school}}"></input>
+            <view class="finish">
+                   <button class="submitBtn" bindtap="submit" form-type="submit">submit</button>
+            </view>
+      </view>
+</view>
+</view>

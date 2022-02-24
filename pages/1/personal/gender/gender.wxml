@@ -1,0 +1,14 @@
+<!--pages/card.wxml-->
+<view class="wrapped">
+<view class="top">
+      <view class="header">性别</view>
+</view>
+<view class="note-wrap">
+      <view class="main">
+            <input class="input" name="gender" placeholder="请输入性别" bindinput="genderInput" value="{{gender}}"></input>
+            <view class="finish">
+                   <button class="submitBtn" bindtap="submit" form-type="submit">submit</button>
+            </view>
+      </view>
+</view>
+</view>

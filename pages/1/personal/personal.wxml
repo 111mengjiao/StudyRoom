@@ -1,0 +1,55 @@
+<!--pages/card.wxml-->
+<view class="wrapped">
+<view class="top">
+      <view class="header">我的档案</view>
+</view>
+<view class="main-wrap">
+      <view class="main-top">
+            <view class="circle">十</view>
+      </view>
+      <view class="main">
+            <view class="above">
+                      <image src="{{avatar}}" class="avatar"></image>
+                <view class="text">
+                    <view class="nickname">
+                          <text>{{nickname}}</text>
+                    </view>
+                    <view class="words">
+                          <text>早起的鸟儿有虫吃~</text>
+                    </view>
+                </view>
+            </view>
+            <button class="head">个人信息</button>
+            <view class="message">
+                 <text class="left">性别</text>
+                 <view bindtap="goGender">
+                      <text class="right">></text>
+                 </view>
+            </view>
+            <view class="message">
+                 <text class="left">所在地区</text>
+                 <view bindtap="goArea">
+                      <text class="right">></text>
+                 </view>
+            </view>
+            <view class="message">
+                <text class="left">所属阶段</text>
+                <view bindtap="goStatus">
+                      <text class="right">></text>
+                 </view>
+            </view>
+            <view class="message">
+                 <text class="left">所属学校</text>
+                 <view bindtap="goSchool">
+                      <text class="right">></text>
+                 </view>
+            </view>
+            <view class="message tip">
+                  <text>早起的鸟儿有虫吃~</text>
+            </view>
+      </view>
+      <view class="main-bottom">
+            <view class="line">封档线</view>
+      </view>
+</view>
+</view>

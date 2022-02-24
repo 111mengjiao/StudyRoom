@@ -1,0 +1,14 @@
+<!--pages/card.wxml-->
+<view class="wrapped">
+<view class="top">
+      <view class="header">所处地区</view>
+</view>
+<view class="note-wrap">
+      <view class="main">
+            <input class="input" name="area" placeholder="请输入地区" bindinput="areaInput" value="{{area}}"></input>
+            <view class="finish">
+                   <button class="submitBtn" bindtap="submit" form-type="submit">submit</button>
+            </view>
+      </view>
+</view>
+</view>

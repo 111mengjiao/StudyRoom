@@ -1,0 +1,21 @@
+<!--pages/card.wxml-->
+<view class="wrapped">
+<view class="top">
+      <view class="header">打卡日历</view>
+</view>
+<view class="main">
+      <Calendar id="Calendar" bind:select="select"></Calendar>
+</view>
+<view class="note-wrap">
+      <view class="note">
+          <view class="note-main">
+              <!-- <button class="addBtn" form-type="submit">添加图片</button> -->
+              <textarea class="addBtn" bindinput="mesInput" name="mes" placeholder="请输入打卡信息" value="{{mes}}"></textarea>
+              <button class="submitBtn" form-type="submit" bindtap="submit">submit</button>
+          </view>
+      </view>
+      <view class="tip">
+            <text>早起的鸟儿有虫吃~</text>
+      </view>
+</view>
+</view>

@@ -1,0 +1,140 @@
+
+.wrapped{
+  width: 100%;
+  letter-spacing: 0.1rem;
+}
+
+.top{
+  background-color: #F2D6A4;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+}
+
+.header{
+  line-height: 50px;
+  font-size: 15px;
+  align-content: center;
+}
+
+.main-wrap{
+  border:4rpx solid #DFC592;
+  background-color: #DFC592;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main-top{
+  margin-top: 20rpx;
+  height: 8vh;
+  width: 100%;
+  border-radius: 15%;
+  background-color: #F2DAAC;
+}
+
+.circle{
+  margin: 0 auto;
+  display: flex;
+  color: #4D3217;
+  font-size: 35rpx;
+  margin-top: 30rpx;
+  align-items: center;
+  justify-content: center;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background: #F8E9CA;
+}
+
+.main{
+  height: 65vh;
+  background-color: #F8E9CA;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head{
+  font-size: 30rpx;
+  background-color: #DAC087;
+  color: #A08953;
+}
+
+.above{
+  display: flex;
+  flex-direction: row;
+  margin: 40rpx 40rpx 40rpx 40rpx;
+}
+
+.avatar{
+  border:2rpx solid #DFC592;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.text{
+  margin-top: 35rpx;
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: column;
+  line-height: 50rpx;
+}
+
+.nickname{
+  color: #4D3217;
+}
+
+.words{
+  color: #D6C7AA;
+}
+
+.message{
+  font-size: 25rpx;
+  color: #4D3217;
+  border-bottom: 4rpx solid #EED7AD;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+  font-weight: 600;
+}
+
+.tip{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 80rpx;
+  margin-bottom: 70rpx;
+  border-bottom: none;
+}
+
+.main-bottom{
+  height: 8vh;
+  width: 100%;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  background-color: #F2DAAC;
+}
+
+.line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35rpx;
+  line-height: 90rpx;
+  color: #4D3217;
+}

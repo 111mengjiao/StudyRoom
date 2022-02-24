@@ -1,0 +1,14 @@
+<!--pages/card.wxml-->
+<view class="wrapped">
+<view class="top">
+      <view class="header">所处阶段</view>
+</view>
+<view class="note-wrap">
+      <view class="main">
+            <input class="input" name="status" placeholder="请输入所处阶段" bindinput="statusInput" value="{{status}}"></input>
+            <view class="finish">
+                   <button class="submitBtn" bindtap="submit" form-type="submit">submit</button>
+            </view>
+      </view>
+</view>
+</view>

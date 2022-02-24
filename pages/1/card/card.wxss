@@ -1,0 +1,69 @@
+/* pages/card.wxss */
+.wrapped{
+  width: 100%;
+  letter-spacing: 0.1rem;
+}
+
+.top{
+  background-color: #F2D6A4;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #C17A42;
+  font-weight: 700;
+}
+
+.header{
+  line-height: 40px;
+  font-size: 15px;
+  align-content: center;
+}
+
+.main{
+  background-color: #FBF2E1;
+}
+
+.note-wrap{
+  width: 100%;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+.note{
+  margin: 20rpx 10rpx 20rpx 10rpx;
+  height: 100%;
+  background-color: #FBF2E1;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tip{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 25rpx;
+  color: #D3C5A2;
+}
+
+.addBtn{
+  height: 30vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border:3rpx solid #C17A42;
+  background-color: #FBF2E1;
+  font-size: 30rpx;
+}
+
+.submitBtn{
+  margin-top: 15rpx;
+  border:3rpx solid #C17A42;
+  background-color: #FBF2E1;
+  font-size: 25rpx;
+  font-weight: 500;
+}
